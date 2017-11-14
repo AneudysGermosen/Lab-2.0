@@ -8,7 +8,7 @@ package shapes;
  *         own Shape classes.
  * 
  *         Choose one of the following: Triangle, Pentagon, Hexagon, Heptagon,
- *         etc. Choose one of the following: Rhombus, Trapezoid, Parallelogram,
+ *         etc. Choose one of the following: Rhombus, Trapezoid, Parallelogram,tjhmnthmn
  *         Kite
  * 
  *         Both classes must extend shape, and implement all necessary methods.
