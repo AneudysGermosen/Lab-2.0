@@ -42,7 +42,7 @@ public class ShapeUtilities {
 		
 		for(int x = 0; x < shapes.length; x++)
 		{
-			arrayArea = arrayArea + shapes.calculateArea();
+			arrayArea = arrayArea + shapes[x].calculateArea();
 		}
 			
 		return 0.0;
