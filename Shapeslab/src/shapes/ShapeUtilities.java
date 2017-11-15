@@ -25,6 +25,10 @@ public class ShapeUtilities {
 			return new Rectangle(rand.nextInt(50), rand.nextInt(50));
 		case 2:
 			return new Square(rand.nextInt(50));
+		case 3:
+			return new Triangle(rand.nextInt(50), rand.nextInt(50));
+		case 4:
+			return new Trapezoid(rand.nextInt(50), rand.nextInt(50), rand.nextInt(50), rand.nextInt(50), rand.nextInt(50));
 		default:
 			return new Circle(rand.nextInt(100));
 		}
@@ -55,8 +59,13 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	public static double sumPerimeter(Shape[] shapes) {
-		// To be written by student
-		return 0.0;
+		double arrayPerimeter = 0.0;
+
+		for(int x = 0; x < shapes.length; x++)
+		{
+			arrayPerimeter = arrayPerimeter + shapes[x].calculatePerimeter();
+		}
+		return arrayPerimeter;
 	}
 
 }
