@@ -15,8 +15,8 @@ public class Square extends Rectangle {
 	}
 
 	public double calculatePerimeter(){
-		double squareP = side * 4
-		return squareA
+		double squareP = side * 4;
+		return squareA;
 	}
 	@Override
 	public String toString() {

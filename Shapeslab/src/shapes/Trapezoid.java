@@ -22,9 +22,9 @@ public class Trapezoid implements Shape {
 	public Trapezoid(int height, int baselength1, int baselength2, int side1, int side2) {
 		this.height = height;
 		this.baselength1 = baselength1;
-		this.baselength2 = baselength2:
+		this.baselength2 = baselength2;
 		this.side1 = side1;
-		this.side2 - side2l
+		this.side2 = side2;
 	}
 
 	@Override
