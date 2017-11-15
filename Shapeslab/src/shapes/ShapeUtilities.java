@@ -45,7 +45,7 @@ public class ShapeUtilities {
 			arrayArea = arrayArea + shapes[x].calculateArea();
 		}
 			
-		return 0.0;
+		return arrayArea;
 	}
 
 	/**

@@ -16,14 +16,14 @@ public class Rectangle implements Shape {
 
 
 	public double calculateArea() {
-		// To be written by student
-		return 0.0;
+		double rectangleA = length * width;
+		return rectangleA;
 	}
 
 
 	public double calculatePerimeter() {
-		// To be written by student
-		return 0.0;
+		double rectangleP = (2*length)+(2*width);
+		return rectangleP;
 	}
 
 
